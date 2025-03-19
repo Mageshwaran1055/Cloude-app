@@ -1,3 +1,4 @@
+pip install --upgrade pip
 from flask import Flask, render_template, request, send_file
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
